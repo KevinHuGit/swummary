@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "Aeonik Pro";
+    src: url("AeonikProTRIAL-Regular.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body, .pageBody {
+    font-family: "Aeonik Pro", sans-serif;
+}
+
+.sticky {
+    padding-bottom: 3%;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 999;
+
+    background-image: linear-gradient(#ebeeee, white);
+    min-width: 100vw;
+    min-height: 10vh;
+
+    display: flex;
+    gap: 3%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    align-content: normal;
+}
+
+#submitButton {
+    background-color: #197367;
+}
+
+#submitButton:hover {
+    background-color: #3c8175;
+}
+
+#submitButton:active {
+    background-color: #197367;
+}
+
+#searchIcon {
+    color: #ebeeee;
+}
+
+.pageBody {
+    text-align: center;
+    /* background-color: blue; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.searchBar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    min-width: 75vw;
+    max-width: 75vw;
+}
+
+.pageContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2vw;
+}
+
+.summary {
+    padding-top: 5vh;
+    min-width: 60vw;
+    max-width: 60vw;
+    /* background-color: red; */
+    text-align: left;
+    padding-left: 13%;
+    min-height: 100vh;
+}
+
+/* .summaryCard {
+    
+} */
+
+.cardTitle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.noDecoration {
+    text-decoration: none !important;
+}
+
+.resultCard {
+    /* min-width: 90%;
+    max-width: 90%; */
+    margin-bottom: 2%;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.resultCard:hover {
+    background-color: #cffbf2;
+    cursor: pointer;
+}
+
+.resultCard:active {
+    background-color: #ecfefa;
+}
+
+.noResults {
+    padding-top: 5vh;
+    text-align: center;
+}
+
+.results {
+    /* min-width: 20vw; */
+    padding-top: 5vh;
+    /* background-color: pink; */
+    padding-right: 13%;
+    min-height: 100vh;
+}
